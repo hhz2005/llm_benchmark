@@ -1,0 +1,33 @@
+# ── LLM模型文件（最重要）──
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+
+# ── R运行时文件 ──
+.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+# ── Python相关 ──
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ── IDE ──
+.idea/
+.vscode/
+
+# ── 系统文件 ──
+.DS_Store
+Thumbs.db
+
+# ── 其他大文件 ──
+*.log
